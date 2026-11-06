@@ -6,7 +6,7 @@
     "buildCommand": "corepack enable && corepack prepare pnpm@latest --activate && pnpm config set engine-strict false && pnpm install --no-frozen-lockfile && pnpm build"
   },
   "deploy": {
-    "startCommand": "pnpm --filter @citrineos/core start",
+    "startCommand": "pnpm --filter @citrineos/ocpp-server start",
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 10
   }
